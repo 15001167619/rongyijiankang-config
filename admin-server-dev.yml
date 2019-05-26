@@ -1,0 +1,29 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+spring:
+  mail:
+    host: smtp.qq.com
+    username: 455374274@qq.com
+    password: jtdousvrbuaobhgh
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+  boot:
+    admin:
+      notify:
+        mail:
+          to: 15001167619@163.com
+          from: 455374274@qq.com
+
+
